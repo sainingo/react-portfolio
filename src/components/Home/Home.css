@@ -1,0 +1,36 @@
+.home-container {
+    background-image: url('../../assets/wave2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 230px;
+    padding: 60px;
+}
+
+.home-left {
+    margin: 2px 7%;
+    padding: 20px;
+}
+br {
+    padding: 2px 0;
+}
+
+.home-left > h1 {
+    font-family: 'Cookie', cursive;
+    font-size: 5.8rem;
+    font-weight: 400;
+}
+
+.home-right {
+    background-image: url('../../assets/pr-skills.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 230px;
+    padding: 0 10px;
+}
+
+.home-right > h3{
+ margin-top: 30px;
+}

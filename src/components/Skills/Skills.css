@@ -1,0 +1,78 @@
+.skills-section {
+    background: rgb(75,74,105);
+    background: linear-gradient(45deg, rgba(75,74,105,1) 0%, rgba(2,0,36,1) 0%, rgba(19,17,52,1) 5%, rgba(19,17,52,1) 10%, rgba(125,125,153,1) 31%, rgba(119,129,158,1) 46%, rgba(26,194,234,1) 69%, rgba(0,212,255,1) 81%);
+}
+
+.About-section h2 {
+ padding: 40px;
+ text-align: center;
+ color: #fff;
+ font-size: 2.8rem;
+ text-decoration: underline;
+}
+
+.About-section > p {
+    margin-left: 32%;
+    font-weight: 500;
+    color: beige;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+}
+
+.About-section > span {
+    margin-left: 55%;
+    font-size: large;
+    letter-spacing: 0.03em;
+}
+.About-section > h5 {
+    margin-left: 60%;
+    margin-top: 40px;
+    font-size: 1.5rem;
+    letter-spacing: 0.03em;
+    color: aquamarine;
+    font-weight: 400;
+}
+
+.bg-skills {
+background-image: url('../../assets/comp.png');
+background-size: cover;
+width: 500px;
+height: 400px;
+background-repeat: no-repeat;
+background-position: center;
+margin-left: 140px;
+}
+
+.skills {
+    padding-bottom: 40px;
+    padding-left: 160px;
+}
+
+.skills > h3 {
+    text-align: center;
+    font-size: 3.1rem;
+}
+
+.project-row {
+  display: flex;
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+.project-section {
+    padding: 8px;
+    border-radius: 8px;
+    transition: all 0.03s ease-in;
+    -webkit-box-shadow: 2px 10px 16px 4px rgba(99,86,99,0.36);
+-moz-box-shadow: 2px 10px 16px 4px rgba(99,86,99,0.36);
+box-shadow: 2px 10px 16px 4px rgba(99,86,99,0.36);
+}
+
+.project-section:hover {
+    transform: scale(1.1);
+}
+
+.project-section > img {
+ width: 22rem;
+ height: 25rem;
+}
